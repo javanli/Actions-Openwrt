@@ -19,3 +19,4 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 
 git clone https://github.com/jerrykuku/lua-maxminddb.git ./package/lean/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git ./package/lean/luci-app-vssr
+svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
